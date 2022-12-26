@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    /* padding: 128px; */
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: #3882f6;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.header,
+.info,
+.review {
+    padding-inline: 256px;
+}
+/* HEADER (SECTION 1) */
+
+.header {
+    background-color: #1F2937;
+    padding-bottom: 64px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    margin-bottom: 64px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+}
+.links,
+.bottom-header .desc {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+.bottom-header .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 500px;
+}
+
+/* INFO (SECTION 2) */
+
+.info .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 16px;
+    
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.sub-info {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.info .image-placeholder {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+/* REVIEW (SECTION 3) */
+
+.review {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.review .quote {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    
+}
+.review .credit {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* SIGN UP (SECTION 4) */
+
+.box {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    margin: 64px;
+    margin-inline: 256px;
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    /* gap: 16px; */
+}
+.box .title {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 8px;
+}
+
+
+
+
+.box button {
+    border: 1px solid #E5E7EB;
+}
+/* FOOTER */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 32px;
+    text-align: center;
+}
